@@ -1,0 +1,102 @@
+.img-logo{
+    width:14%;
+
+}
+.btn-sign{
+    background-color:#e50914;
+    color:white;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:20px;
+    padding-left:20px;
+    border-radius:5px;
+    cursor:pointer;
+    width:fit-content;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.nav-bar{
+    height:10vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:1%;
+    padding-left:2vw;
+    padding-right:4vw;
+
+}
+.main-container{
+    width:100%;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.divclass{
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("netflixback.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+
+}
+body{
+    padding:0px;
+    margin:0px;
+    overflow-y:hidden;
+}
+
+.main-titles-container{
+    width:50%;
+    text-align:center;
+    color:white;
+}
+.main-title{
+    font-size:3.2em;
+    margin-bottom:14px;
+    line-height:1.2;
+}
+.main-subtitle{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+    margin-bottom:30px;
+
+}
+.main-call-to-action{
+    font-family:Arial, Helvetica, sans-serif;
+    font:1.3em;
+}
+.e-mail{
+    width:55%;
+    height:fit-content;
+    background-color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.e-mail-input{
+    outline:none;
+    border:none;
+    padding:20px 10px;
+    font-size:1em;
+
+}
+.btn-getstarted{
+    cursor:pointer;
+    padding:18px 32px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:fit-content;
+    background-color:red;
+    color:white;
+    font-size:1.4em;
+    text-transform:uppercase;
+    text-align:center;
+
+
+}
+.btn-getstarted:hover{
+    background-color:darkred;
+}
